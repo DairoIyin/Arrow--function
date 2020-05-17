@@ -29,6 +29,7 @@ const todos=[{
 ];
 
 const notdone = todos.filter(todo => todo.isDone === false);
+notdone.forEach(any=>console.log(any.title));
 console.log(notdone);
 //console.log('triple equal')
 
